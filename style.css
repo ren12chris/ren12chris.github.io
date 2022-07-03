@@ -38,8 +38,8 @@ p {
 .container img{
     border-radius: 80%;
     border: 5px solid black;
-    width:203px;
-    height:206px;
+    width:150px;
+    height:150px;
 }
 
 div.container img:hover {
