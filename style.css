@@ -40,13 +40,10 @@ p {
     border: 5px solid black;
     width:250px;
     height:300px;
-    transition: 0.3s ease all;
-    margin-top: 5px;
 }
 
 div.container img:hover {
     box-shadow: 0 30px 30px 0px #000;
-    margin-top: -5px;
 }
 
 .header {
@@ -69,19 +66,13 @@ div.container img:hover {
 }
 
 .gallery img {
-    width: 200%;
-    height:400px;
+    width:100%;
+    height:200px;
     object-fit:cover;
     border: 3px solid black;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
     border-radius:20px;
     box-sizing: border-box;
-}
-
-div.gallery img:hover {
-    border: 2px solid khaki;
-    box-shadow: 0 10px 10px 3px #FFD700;
-    margin-top: -5px;
 }
 
 .footer h2 {
@@ -116,41 +107,12 @@ div.gallery img:hover {
     color:crimson;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:768px) {
     .gallery {
-        grid-template-columns: 1fr 1fr;
+        grid-tempalte-columns: 1fr 1fr;
     }
 
     .gallery img {
-        height:400px;
-        width:200%;
-    }
-
-    .footer h2 {
-      margin-left:237;
-      color:cornflowerblue;
-    }
-
-    .social a {
-        width:40px;
-        height:40px;
-        padding-right: 0rem;
+        height:170px;
     }
 }
-
-@media screen and (max-width:576px) {
-    .footer h2 {
-        margin-left:168;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .footer h2 {
-        margin-left:216;
-        margin-top: 1rem;
-    }
-}
-
-
-
-
