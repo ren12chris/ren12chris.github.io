@@ -38,8 +38,8 @@ p {
 .container img{
     border-radius: 80%;
     border: 5px solid black;
-    width:250px;
-    height:300px;
+    width:205px;
+    height:206px;
 }
 
 div.container img:hover {
@@ -74,6 +74,12 @@ div.container img:hover {
     border-radius:20px;
     box-sizing: border-box;
 }
+
+div.gallery img:hover {
+    border: 2px solid khaki;
+    box-shadow: 0 10px 5px 2px #FFD700;
+}
+
 
 .footer h2 {
     padding: 15px 0;
