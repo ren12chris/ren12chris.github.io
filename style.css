@@ -10,7 +10,6 @@ body {
 }
 
 .lapisan {
-    position:absolute;
     width:100%;
     height:auto;
     background: rgba(0,0,0,0.5);
