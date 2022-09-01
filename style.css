@@ -130,12 +130,16 @@ div.gallery img:hover {
 
 @media (min-width:999px) {
     .gallery {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .gallery img {
         height:300px;
-        width: 500px;
+        width: 300px;
+    }
+
+    p {
+        font-size: 15px;
     }
 
     .container img {
