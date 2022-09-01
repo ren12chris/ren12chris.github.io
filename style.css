@@ -128,16 +128,6 @@ div.gallery img:hover {
     color:crimson;
 }
 
-@media screen and (max-width:768px) {
-    .gallery {
-        grid-tempalte-columns: 1fr 1fr;
-    }
-
-    .gallery img {
-         height:170px;
-    }
-}
-
 @media (min-width:999px) {
     .gallery {
       grid-template-columns: 1fr 1fr 1fr;
