@@ -143,3 +143,10 @@ div.gallery img:hover {
         height:190px;
     }
 }
+
+@media (max-width:337px) {
+    .gallery img {
+        height:120px;
+        width:800px;
+    }
+}
