@@ -130,30 +130,37 @@ div.gallery img:hover {
 
 @media (min-width:999px) {
     .gallery {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
 
     .gallery img {
-        height:300px;
-        width: 300px;
+        width: 500px;
     }
 
     .container img {
         width:190px;
-        height:190px;
+        
     }
 }
 
 @media (max-width:337px) {
     .gallery img {
-        height:120px;
         width:800px;
     }
 }
 
-@media (max-width:359px) {
+@media (max-width:459px) {
+    .gallery{
+        display: block;
+        height: 100%;
+    }
     .gallery img {
-        height: 120px;
-        width: 800px;
+       width: 100%;
+    }
+}
+
+@media (max-width:490px) {
+    .gallery img {
+       width: 800px;
     }
 }
