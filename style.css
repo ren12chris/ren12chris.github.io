@@ -47,10 +47,10 @@ p {
 }
 
 .container img{
-    border-radius: 80%;
+    border-radius: 100%;
     border: 5px solid black;
-    width:120px;
-    height:125px;
+    width:200px;
+    height:180px;
 }
 
 div.container img:hover {
