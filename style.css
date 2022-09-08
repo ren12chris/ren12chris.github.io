@@ -150,3 +150,10 @@ div.gallery img:hover {
         width:800px;
     }
 }
+
+@media (max-width:359px) {
+    .gallery img {
+        height: 120px;
+        width: 800px;
+    }
+}
